@@ -21,6 +21,10 @@
         
     }
 
+    .socialmedia-footer a img{
+        width: 6%;
+    }
+
     .footer-nav{
         flex-direction: column;
         
@@ -31,6 +35,7 @@
     .socialmedia-footer{
         text-align: center;
     }
+
 }
 
 @media only screen and (max-width:992px) {
