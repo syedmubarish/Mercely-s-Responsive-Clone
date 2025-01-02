@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Aubrey", serif;
+    color: #9E7E2A;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.nav-link{
+    color: #9E7E2A;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 23px;
+}
+.nav-link:hover{
+    color: #E9B519;
+}
+
+.nav-link.active{
+    color: #E9B519 !important;
+    
+}
+
+.playbtn{
+    border: none;
+    color: #9E7E2A;
+    border-radius: 36px;
+    padding: 10px 16px;
+    background: white;
+    font-size: 25px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left:-40%;
+}
+.carouselcaptiontext{
+    color: #9E7E2A;
+}
+
+.sweetness-section h3{
+    font-weight: 500;
+    font-size: 40px;
+}
+.sweetness-section p{
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.noun div{
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    gap: 15px;
+    padding: 0px 20px;
+}
+
+.noun div:nth-child(odd){
+    background-color: #F6CE55;
+    
+    
+}
+.noun div:nth-child(even){
+    background-color: #572D79;
+   
+}
+
+.noun div p{
+    color: rgb(255, 240, 240);
+}
+
+/* Custom Tooltip Styles */
+.custom-tooltip .tooltip-inner {
+    background-color: #088dbd87; 
+    color: #ffffff; 
+    font-size: 0.8rem; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    
+}
+
+.custom-tooltip .tooltip-arrow {
+    border-top-color: #36daff !important; 
+    
+}
+
+.custom-tooltip {
+    opacity: 1 !important; 
+}
+
+.home-pg-section h1{
+    font-size: 120px;
+    color: #DDECF3;
+}
+
+.home-pg-section iframe{
+      width: 100%;
+}
+
+.home-pg-btn-div button{
+    border: none;
+    background-color: #572D79;
+    border-radius: 25px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.home-pg-btn-div button:hover{
+    background-color: #E9B519;
+}
+
+
+.home-pg-btn-div button i{
+    color: white;
+    margin-left: 10px;
+}
+
+.footer-section{
+    background-color: #B9E6FF;
+}
+
+.footer-logo{
+    width: 20%;
+} 
+
+.footer-nav{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.footer-nav li a{
+    text-decoration: none;
+    color: #9E7E2A;
+
+}
+
+.footer-input input{
+    border: none;
+    border-radius: 26px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.footer-input button{
+    border: none;
+    background-color: #572D79;
+    border-radius: 25px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
+
+.socialmedia-footer a img{
+    width: 3%;
+}
+
+hr{
+    border: 0.9px solid #9E7E2A;
+}
+.copyright p{
+    font-size: 14px;
+}
